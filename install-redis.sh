@@ -42,7 +42,7 @@ fi
 kubectl apply -f https://dev.ellisbs.co.uk/files/components.yaml
 
 # install local storage
-kubectl apply -f  local-storage-class.yml
+kubectl apply -f  local-storage-class.yaml
 
 # create redis namespace, if it doesn't exist
 kubectl get ns redis 2> /dev/null
