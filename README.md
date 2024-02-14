@@ -15,5 +15,4 @@ To read that key:
 
 Should get `bye-bye` (or whatever you wrote to the key) back.
 
-
-
+There is a `systemd/port6379.service` to allow kubenetes to port forward to the pod (if running in a systemd enabled env).
